@@ -1121,6 +1121,7 @@ async function loadRadar(id) {
       maxSpokeLen: chars.maxSpokeLength || 512,
       spokesPerRevolution: chars.spokesPerRevolution || 2048,
       pixelValues: chars.pixelValues || 64,
+      legend: chars.legend || null,  // Server-generated color palette
       controls: capabilities.controls || [],
       capabilities,
       state: radarState,
